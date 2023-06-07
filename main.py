@@ -46,6 +46,9 @@ employer_encryption_key = b'n0MJHLrCBcoJL-yKXUZzQr-K8N82K76rsnOL49BjAxc='
 employer_cipher_suite = Fernet(employer_encryption_key)
 print(employer_encryption_key)
 
+openai.organization = 'org-PLZGvfWZoeTMMSMLUGNOSudn'
+openai.api_key = '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'
+
 class RBACManager:
     roles = {
         "admin": ["create", "read", "update", "delete"],
